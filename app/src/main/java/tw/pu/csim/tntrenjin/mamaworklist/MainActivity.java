@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public void selectWorkClick(View v) {
         it.setClass(this, WorkListActivity.class);
         startActivity(it);
-        finish();
     }
 
 

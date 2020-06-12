@@ -80,22 +80,25 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/work_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="24dp"
-                android:background="@drawable/customborder"
+                android:background="@drawable/border_16"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:onClick="selectWork_1"
+                android:orientation="horizontal"
+                android:padding="12dp">
 
                 <ImageView
                     android:id="@+id/icon_1"
-                    android:layout_width="30dp"
-                    android:layout_height="75dp"
+                    android:layout_width="15dp"
+                    android:layout_height="65dp"
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0.5"
                     app:srcCompat="@drawable/bread" />
 
                 <TextView
@@ -113,37 +116,41 @@
                     android:id="@+id/star_1"
                     android:layout_width="wrap_content"
                     android:layout_height="28dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     app:srcCompat="@drawable/star" />
 
                 <TextView
                     android:id="@+id/star_cnt_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     android:freezesText="false"
                     android:gravity="left|center_vertical"
+                    android:paddingRight="16dp"
                     android:text="100"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/work_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="24dp"
-                android:background="@drawable/customborder"
+                android:background="@drawable/border_16"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:onClick="selectWork_2"
+                android:orientation="horizontal"
+                android:padding="12dp">
 
                 <ImageView
                     android:id="@+id/icon_2"
-                    android:layout_width="30dp"
-                    android:layout_height="75dp"
+                    android:layout_width="15dp"
+                    android:layout_height="65dp"
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0.5"
                     app:srcCompat="@drawable/bread_1" />
 
                 <TextView
@@ -161,36 +168,40 @@
                     android:id="@+id/star_2"
                     android:layout_width="wrap_content"
                     android:layout_height="28dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     app:srcCompat="@drawable/star" />
 
                 <TextView
                     android:id="@+id/star_cnt_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     android:freezesText="false"
                     android:gravity="left|center_vertical"
+                    android:paddingRight="16dp"
                     android:text="120"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/work_3"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:background="@drawable/customborder"
+                android:background="@drawable/border_16"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:onClick="selectWork_3"
+                android:orientation="horizontal"
+                android:padding="12dp">
 
                 <ImageView
                     android:id="@+id/icon_3"
-                    android:layout_width="30dp"
-                    android:layout_height="75dp"
+                    android:layout_width="15dp"
+                    android:layout_height="65dp"
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0.5"
                     app:srcCompat="@drawable/cookie" />
 
                 <TextView
@@ -208,16 +219,17 @@
                     android:id="@+id/star_3"
                     android:layout_width="wrap_content"
                     android:layout_height="28dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     app:srcCompat="@drawable/star" />
 
                 <TextView
                     android:id="@+id/star_cnt_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     android:freezesText="false"
                     android:gravity="left|center_vertical"
+                    android:paddingRight="16dp"
                     android:text="110"
                     android:textSize="18sp" />
             </LinearLayout>
