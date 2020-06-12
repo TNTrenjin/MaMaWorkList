@@ -88,7 +88,6 @@
                 android:layout_marginBottom="24dp"
                 android:background="@drawable/border_16"
                 android:gravity="center"
-                android:onClick="selectWork_1"
                 android:orientation="horizontal"
                 android:padding="12dp">
 
@@ -140,7 +139,6 @@
                 android:layout_marginBottom="24dp"
                 android:background="@drawable/border_16"
                 android:gravity="center"
-                android:onClick="selectWork_2"
                 android:orientation="horizontal"
                 android:padding="12dp">
 
@@ -191,7 +189,6 @@
                 android:layout_marginRight="24dp"
                 android:background="@drawable/border_16"
                 android:gravity="center"
-                android:onClick="selectWork_3"
                 android:orientation="horizontal"
                 android:padding="12dp">
 

@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class WorkListActivity extends AppCompatActivity {
+public class WorkListActivity extends AppCompatActivity implements View.OnClickListener {
 
     AlertDialog.Builder dialogBuilder;
     AlertDialog alertDialog;
@@ -54,15 +54,18 @@ public class WorkListActivity extends AppCompatActivity {
         });
     }
 
-    public void selectWork_1(View view) {
-        showAlertDialog(R.drawable.bread, "吐司", 100, "1.5 小時");
-    }
-
-    public void selectWork_2(View view) {
-        showAlertDialog(R.drawable.bread_1, "麵包", 120, "1 小時");
-    }
-
-    public void selectWork_3(View view) {
-        showAlertDialog(R.drawable.cookie, "餅乾", 110, "40 分鐘");
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.work_1:
+                showAlertDialog(R.drawable.bread, "吐司", 100, "1.5 小時");
+                break;
+            case R.id.work_2:
+                showAlertDialog(R.drawable.bread_1, "麵包", 120, "1 小時");
+                break;
+            case R.id.work_3:
+                showAlertDialog(R.drawable.cookie, "餅乾", 110, "40 分鐘");
+                break;
+        }
     }
 }
